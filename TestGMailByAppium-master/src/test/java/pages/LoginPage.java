@@ -24,7 +24,7 @@ public class LoginPage extends BasePage {
         driver.findElement(nextBtn).click();
         Thread.sleep(1000);
         driver.findElement(userEdit).sendKeys("zzzm0naxzzz@gmail.com");
-        driver.findElement(passwordEdit).sendKeys("ndodontiasab1");
+        driver.findElement(passwordEdit).sendKeys("sab1");
         driver.findElement(nextBtn).click();
         driver.findElement(okBtn).click();
         waitForVisibilityOf(nextBtn);
